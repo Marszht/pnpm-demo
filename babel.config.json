@@ -1,0 +1,22 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "ios": "10",
+          "chrome": "49"
+        },
+        "useBuiltIns": "usage",
+        "corejs": "3.25.1",
+        "modules": "auto"
+      }
+    ],
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    // [
+    //   "@babel/plugin-transform-runtime"
+    // ]
+  ]
+}
